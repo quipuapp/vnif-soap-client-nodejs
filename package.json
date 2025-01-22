@@ -1,0 +1,23 @@
+{
+  "name": "vnif-soap-client-nodejs",
+  "version": "1.0.0",
+  "description": "Client soap to connect to the VNIFV2 web service",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node example/example.ts",
+    "debug": "node  --inspect=0.0.0.0:9231  -r ts-node/register example/example.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Quipu App SL",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.10.7",
+    "soap": "^1.1.7"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
