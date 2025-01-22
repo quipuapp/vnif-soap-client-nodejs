@@ -128,3 +128,12 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# certificate
+certificate*
+private.key
+
+
+
+# sample example
+example/*.xml
